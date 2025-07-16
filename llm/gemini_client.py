@@ -3,7 +3,7 @@
 import google.generativeai as genai
 
 # ✅ Replace this with your actual Gemini API key
-genai.configure(api_key="AIzaSyAYm3N8YYjecmSxmkCoB-EL9wZq5Qf28cQ")
+genai.configure(api_key="Api")
 
 # ✅ Generate code using Gemini 1.5 Pro Latest
 def generate_code_with_gemini(prompt: str, model_name: str = "models/gemini-1.5-pro-latest") -> str:
